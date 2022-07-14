@@ -1,0 +1,11 @@
+#-------------------------
+# Operating Specific Junk Files
+#-------------------------
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows shortcuts
+*.lnk

@@ -1,0 +1,30 @@
+{
+    "name": "okfsoft/ci4-hmvc",
+    "description": "CodeIgniter v4 HMVC",
+    "homepage": "https://github.com/okfsoft",
+    "license": "MIT",
+    "keywords": [
+        "ci4 hmvc",
+        "codeigniter4 hmvc"
+    ],
+    "authors": [
+        {
+            "name": "MSSoft Codev Software Technology",
+            "email": "mscodev@gmail.com",
+            "homepage": "https://gitlab.com/mscodev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.1",
+        "codeigniter4/framework": "^4.2",
+        "eftec/bladeone":"^4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MsCodev\\Hmvc\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
